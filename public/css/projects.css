@@ -45,23 +45,17 @@ body h2 {
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
 	padding: 50px;
-	font-size: 30px;
+	font-size: 40px;
 	color: rgb(255, 255, 255);
 }
 
 body h3 {
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
-	padding: 50px;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size: 20px;
-}
-
-body h3 a {
-	text-decoration: none;
-	font-weight: lighter;
 	color: rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-bottom: 10%;
+	font-size: 30px;
 }
 
 .container {
@@ -74,33 +68,51 @@ body h3 a {
 	text-align: center;
 	margin-top: 10rem;
 	min-height: 80rem;
+	margin-bottom: 10rem;
 }
 
 #table,
 th,
 td {
-	margin: auto;
-	/* border: 1px solid rgb(41, 166, 197); */
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 20px;
+	/* border: 1px solid rgb(39, 39, 39); */
 	border-collapse: collapse;
+	background-color: rgb(58, 58, 58);
+	border-radius: 30px;
 }
 tbody {
 	color: rgb(255, 247, 235);
-	background-color: rgb(49, 49, 49);
 }
 
 .header-table {
 	color: black;
 }
 
-thead {
-	/* background-color: rgb(41, 166, 197); */
-}
-
 .img {
-	width: 60%;
+	width: 25%;
 }
 .imgjs {
-	width: 80%;
+	width: 40%;
+}
+
+.contact-item {
+	padding-top: 50px;
+}
+
+.contact-item a {
+	font-size: 90px;
+	padding: 15px;
+}
+.contact-list {
+	list-style: none;
+}
+
+.contact-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 60px;
 }
 
 footer {
