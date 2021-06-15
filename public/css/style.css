@@ -21,18 +21,29 @@ nav {
 	line-height: 60px;
 	letter-spacing: 2px;
 	font-weight: bold;
-	font-size: 43px;
+	font-size: 2.3rem;
 	text-decoration: none;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .portfolio-color {
 	text-align: center;
 	color: rgb(221, 70, 70);
 	letter-spacing: 2px;
-	font-size: 43px;
+	font-size: 2.3rem;
 	font-weight: bold;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.project {
+	color: rgb(221, 221, 221);
+	height: 60px;
+	line-height: 60px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 2.3rem;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .toggle {
@@ -102,9 +113,9 @@ section {
 
 body h1 {
 	text-align: center;
-	font-family: "Courier New", Courier, monospace;
-	margin-top: 150px;
-	font-size: 4.2rem;
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 10vw;
+	font-size: 4.2vw;
 	padding-left: 5%;
 	padding-right: 5%;
 	color: rgb(255, 255, 255);
@@ -112,19 +123,20 @@ body h1 {
 
 body h2 {
 	text-align: center;
-	font-family: "Courier New", Courier, monospace;
-	padding: 50px;
-	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 2vw;
+	font-size: 2.5vw;
 	color: rgb(255, 255, 255);
 }
 
 body h3 {
 	text-align: center;
-	font-family: "Courier New", Courier, monospace;
-	padding: 50px;
+	font-family: 'Courier New', Courier, monospace;
 	padding-left: 5%;
 	padding-right: 5%;
-	font-size: 20px;
+	padding-top: 0.3vw;
+	padding-bottom: 2rem;
+	font-size: 1.5vw;
 }
 
 body h3 a {
@@ -135,21 +147,87 @@ body h3 a {
 
 .container {
 	text-align: center;
-	margin-top: 20px;
+}
+
+.container-table {
+	position: inherit;
+	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+#table,
+th,
+td {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1rem;
+	border-collapse: collapse;
+	background-color: rgb(58, 58, 58);
+	border-radius: 30px;
+}
+tbody {
+	color: rgb(255, 247, 235);
+}
+
+.header-table {
+	color: black;
+}
+
+.img {
+	width: 15vw;
+}
+.imgjs {
+	width: 15vw;
+}
+
+.contact-item {
+	padding-top: 3rem;
+}
+
+.contact-item a {
+	font-size: 4vw;
+	padding: 15px;
+}
+
+.btn-project {
+	border: 0.4vw solid rgb(221, 70, 70);
+	border-radius: 1vw;
+	background: none;
+	padding: 1.3vw 2.5vw;
+	cursor: pointer;
+	font-family: sans-serif;
+	transition: 0.4s;
+	margin: 1vw;
+}
+
+.btn-project:focus {
+	outline: none;
+}
+
+.btn-project:hover {
+	background: rgb(221, 70, 70);
+	transition: 0.4s;
+}
+
+.btn-project a {
+	color: rgb(221, 70, 70);
+	text-decoration: none;
+	font-size: 1.8vw;
+}
+.btn-project a:hover {
+	color: rgb(219, 219, 219);
 }
 
 .btn {
-	border: 3px solid rgb(221, 70, 70);
-	border-radius: 9px;
+	border: 0.4vw solid rgb(221, 70, 70);
+	border-radius: 1vw;
 	background: none;
-	padding: 10px 20px;
-
-	border-radius: 9px;
+	padding: 1.3vw 2.5vw;
 	cursor: pointer;
-	font-size: 45px;
 	font-family: sans-serif;
 	transition: 0.4s;
-	margin: 18px;
+	margin: 1vw;
 }
 
 .btn:focus {
@@ -164,6 +242,7 @@ body h3 a {
 .btn a {
 	color: rgb(221, 70, 70);
 	text-decoration: none;
+	font-size: 1.8vw;
 }
 .btn a:hover {
 	color: rgb(219, 219, 219);
@@ -179,7 +258,7 @@ li {
 .contact-link {
 	color: #fff;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 4vw;
 }
 
 .touch {
@@ -191,7 +270,7 @@ li {
 }
 
 .touch::after {
-	content: "";
+	content: '';
 	position: absolute;
 }
 
@@ -204,6 +283,12 @@ li {
 form {
 	margin-top: 50px;
 	text-align: center;
+}
+
+.demo {
+	color: #fff;
+	font-size: 2vw;
+	text-decoration: none;
 }
 
 .form-control {
@@ -226,44 +311,29 @@ input {
 	height: 45px;
 }
 
-form .submit {
-	background: rgb(221, 70, 70);
-	color: rgb(255, 255, 255);
-	border: 2px solid rgb(221, 70, 70);
-	border-radius: 9px;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	width: 90px;
-}
-
-form .submit:hover {
-	background: none;
-	border-radius: 9px;
-	cursor: pointer;
-	transition: 0.2s;
-}
-
 footer {
-	padding: 2px;
-	padding-bottom: 10px;
+	padding: 0.1rem;
 	background: rgb(19, 19, 19);
 	text-align: center;
-	color: rgb(190, 190, 190);
-	font-family: "Courier New", Courier, monospace;
+	color: rgb(192, 192, 192);
+	font-family: 'Courier New', Courier, monospace;
 	border-top: 1px solid rgb(190, 190, 190);
+	padding-bottom: 0.1rem;
 }
 
 .footer-item {
-	margin-bottom: 20px;
-	font-size: 15px;
+	margin-bottom: 0.3rem;
+	font-size: 1vw;
 }
 
 .footer-contact {
 	display: inline-block;
-	padding-right: 10px;
+	padding-right: 1rem;
+	font-size: 1vw;
+	margin-top: 5px;
 }
 
 .footer-link {
 	color: rgb(221, 70, 70);
+	font-size: 1vw;
 }
