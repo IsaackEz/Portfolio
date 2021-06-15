@@ -124,7 +124,7 @@ body h1 {
 body h2 {
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
-	padding: 2vw;
+	padding: 1vw;
 	font-size: 2.5vw;
 	color: rgb(255, 255, 255);
 }
@@ -161,7 +161,7 @@ th,
 td {
 	margin-left: 5%;
 	margin-right: 5%;
-	padding: 1rem;
+	padding: 0.3rem;
 	border-collapse: collapse;
 	background-color: rgb(58, 58, 58);
 	border-radius: 30px;
